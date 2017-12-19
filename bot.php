@@ -45,7 +45,7 @@ function cuaca($keyword) {
     $json = json_decode($response->raw_body, true);
     $result = "Halo Kak ^_^ Ini ada Ramalan Cuaca Untuk Daerah ";
 	$result .= $json['name'];
-	$result = " Dan Sekitarnya";
+	$result .= " Dan Sekitarnya";
 	$result .= "\n\nCuaca : ";
 	$result .= $json['weather']['0']['main'];
 	$result .= "\nDeskripsi : ";
