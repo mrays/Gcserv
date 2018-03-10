@@ -108,8 +108,6 @@ if($message['type']=='text')
             )
         );
     }
-
-}
 else 
 if($message['type']=='text') {
 	    if ($command == '/cuaca') {
