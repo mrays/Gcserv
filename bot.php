@@ -1,10 +1,5 @@
 <?php
-/*
-copyright @ medantechno.com
-Modified @ Farzain - zFz
-2017
 
-*/
 
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
