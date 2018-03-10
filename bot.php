@@ -108,7 +108,9 @@ if($message['type']=='text')
             )
         );
     }
-else 
+}
+
+//pesan bergambar
 if($message['type']=='text') {
 	    if ($command == '/cuaca') {
 
