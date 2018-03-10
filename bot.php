@@ -93,10 +93,11 @@ if ($type == 'join' || $command == '/menu') {
 }
 
 //pesan bergambar
-if($message['type']=='text') {
-	    if ($command == '/cuaca') {
+if($message['type']=='text')
+{
+	    if ($command == '/shalat') {
 
-        $result = cuaca($options);
+        $result = shalat($options);
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
@@ -110,11 +111,10 @@ if($message['type']=='text') {
 
 }
 else 
-if($message['type']=='text')
-{
-	    if ($command == '/shalat') {
+if($message['type']=='text') {
+	    if ($command == '/cuaca') {
 
-        $result = shalat($options);
+        $result = cuaca($options);
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
