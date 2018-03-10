@@ -108,7 +108,10 @@ if($message['type']=='text') {
         );
     }
 
-}else if($message['type']=='text') {
+}
+else 
+if($message['type']=='text')
+{
 	    if ($command == '/shalat') {
 
         $result = shalat($options);
@@ -123,7 +126,8 @@ if($message['type']=='text') {
         );
     }
 
-}else if($message['type']=='sticker')
+}else 
+if($message['type']=='sticker')
 {	
 	$balas = array(
 							'replyToken' => $replyToken,														
