@@ -3,8 +3,8 @@
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'Yx28R7xfp44mbFSSzgZPzbF0duG8NnOTpdd+i/9z8lGhTSZ1F8Oo846FLjXmNGvDbsTMLe5ReOT1LTBjI3KW8gppYQLAa6Ru32WqzXZFGwAC7TvrLzOcUSkWXsu93ljTPVwBxkIN3AOCzZcXbGpG+QdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = '9f868c51761e64eafbb3d0d7a46f2021';//sesuaikan
+$channelAccessToken = '+g2yxumXGZRu1SVejBfo/KKhL9EjgI/urtf7PhMNIudey66piGMQjW/5VG8C2MGIMpN7iUC7IyKJUuhlufyUFPRjEAcmiE6+RINoLZ9RVoivAFVUrtD/3Ajem6/VROI5bvLam8myF5Z6G+up/70fIwdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = 'acddb2e94d46d0e1de27263498a75095';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
