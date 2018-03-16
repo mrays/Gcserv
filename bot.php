@@ -92,6 +92,15 @@ if ($type == 'join' || $command == '/menu') {
     );
 }
 
+//sepur
+if($message['type']=='text')
+{
+require_once('./test.php');
+require_once('./datanama.php');
+require_once('./sop.php');
+require_once('./about.php');
+}
+
 //pesan bergambar
 if($message['type']=='text')
 {
