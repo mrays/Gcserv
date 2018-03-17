@@ -92,7 +92,32 @@ if ($type == 'join' || $command == '/menu') {
     );
 }
 
-
+	if($pesan_datang=='gc')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => 'Anggota Greencore ! :
+1. Alan    (PM)
+2. Arif      (PM)
+3. Dewa    (BC)
+4. Fadhil   (BC)
+5. Ikhwal  (AP)
+6. Nauval  (PM)
+7. Rangga (PM)
+8. Salman (AK)
+9. Septian (PM)
+'.date("j F, Y, g:i a").'
+'.date("B u, e, T, Z, c")
+									)
+							)
+						);
+				
+	}
 //pesan bergambar
 if($message['type']=='text')
 {
