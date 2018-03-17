@@ -1,7 +1,7 @@
 <?php
 # Command Line
 
-	if($pesan_datang=='.visimisi')
+	if($command=='.visimisi')
 	{
 		
 		
@@ -27,7 +27,7 @@ Misi :
 				
 	}
 	else
-	if($pesan_datang=='.strukturgc')
+	if($command=='.strukturgc')
 	{
 		
 		
@@ -52,7 +52,7 @@ Misi :
 				
 	}
 	else
-	if($pesan_datang=='ikhwal')
+	if($command=='ikhwal')
 	{
 		
 		
@@ -69,7 +69,7 @@ Misi :
 				
 	}
 	else
-	if($pesan_datang=='.kpg')
+	if($command=='.kpg')
 	{
 		
 		
@@ -125,7 +125,7 @@ maka bisa jadi akan dikeluarkan dengan proses tertentu.
 				
 	}
 	else
-	if($pesan_datang=='.kc')
+	if($command=='.kc')
 	{
 		
 		
