@@ -1,7 +1,7 @@
 <?php
 # Command Line
 
-	if($pesan_datang=='gc')
+	if($command=='gc')
 	{
 		
 		
@@ -28,7 +28,7 @@
 				
 	}
 	else
-	if($pesan_datang=='gc/db')
+	if($command=='gc/db')
 	{
 		
 		
@@ -60,7 +60,7 @@ Anggota Baru :
 				
 	}
 	else
-	if($pesan_datang=='ikhwal')
+	if($command=='ikhwal')
 	{
 		
 		
@@ -77,7 +77,7 @@ Anggota Baru :
 				
 	}
 	else
-	if($pesan_datang=='arif')
+	if($command=='arif')
 	{
 		
 		
@@ -94,7 +94,7 @@ Anggota Baru :
 				
 	}
 	else
-	if($pesan_datang=='septian')
+	if($command=='septian')
 	{
 		
 		
@@ -111,7 +111,7 @@ Anggota Baru :
 				
 	}
 	else
-	if($pesan_datang=='alan')
+	if($command=='alan')
 	{
 		
 		
@@ -128,7 +128,7 @@ Anggota Baru :
 				
 	}
 	else
-	if($pesan_datang=='xc')
+	if($command=='xc')
 	{
 						
 		$push = array(
