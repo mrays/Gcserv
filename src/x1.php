@@ -59,7 +59,8 @@ Anggota Baru :
 						);
 				
 	
-	
+		}
+        else
 	if($command=='alan')
 	{
 		
