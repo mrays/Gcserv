@@ -58,6 +58,40 @@ Anggota Baru :
 							)
 						);
 				
+	
+	
+	if($command=='alan')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => ''.$pesan_datang.', Orangnya pendiem, saking diemnya sampe tidur mulu dikelas, banyak ciwainya, suaranya kaya kambing pengen ka***n, Gans
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='arif')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => ''.$command.', Belum ada deskripsi
+'
+									)
+							)
+						);
+				
 	}
 	else
 	if($command=='ikhwal')
@@ -77,23 +111,6 @@ Anggota Baru :
 				
 	}
 	else
-	if($command=='arif')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => 'Arif, orangnya biasa, Jombs, suka bangat buku kambing conge
-'
-									)
-							)
-						);
-				
-	}
-	else
 	if($command=='septian')
 	{
 		
@@ -104,23 +121,6 @@ Anggota Baru :
 								array(
 										'type' => 'text',					
 										'text' => ''.$pesan_datang.', Belum ada deskripsi
-'
-									)
-							)
-						);
-				
-	}
-	else
-	if($command=='alan')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => ''.$pesan_datang.', Orangnya pendiem, saking diemnya sampe tidur mulu dikelas, banyak ciwainya, suaranya kaya kambing pengen ka***n, Gans
 '
 									)
 							)
