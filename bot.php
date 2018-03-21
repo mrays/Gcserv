@@ -3,8 +3,8 @@
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = '+g2yxumXGZRu1SVejBfo/KKhL9EjgI/urtf7PhMNIudey66piGMQjW/5VG8C2MGIMpN7iUC7IyKJUuhlufyUFPRjEAcmiE6+RINoLZ9RVoivAFVUrtD/3Ajem6/VROI5bvLam8myF5Z6G+up/70fIwdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = 'acddb2e94d46d0e1de27263498a75095';//sesuaikan
+$channelAccessToken = 'AP5pE21sNbOj72mkPd6J4Q7oRoJxTSmM0lypCiVyMoIC9p2ulj+ciDx3XCALlIGzuls9s7DhZ3a+ytePlkQWmHb7kF1RIyErA6a3dc6bo9wddvehbtwoX//xcFcWlcut4AXZ21byrS42/4RYSXQbSwdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = 'b71dda44d7573f60dde60e52c9a3ea76';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
@@ -109,14 +109,6 @@ if($message['type']=='text')
             )
         );
     }
-}
-//sepur
-if($message['type']=='text')
-{
-require_once('./src/x1.php');
-require_once('./src/x2.php');
-require_once('./src/x3.php');
-# require_once('./about.php');
 }
 //pesan bergambar
 if($message['type']=='text') {
