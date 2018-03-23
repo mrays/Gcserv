@@ -12,7 +12,7 @@
 										'type' => 'text',					
 										'text' => 'Anggota Greencore ! :
 1. Alan    (PM)
-2. Arif      (PM)
+2. Arif     (PM)
 3. Dewa    (BC)
 4. Fadhil   (BC)
 5. Ikhwal  (AP)
@@ -20,8 +20,7 @@
 7. Rangga (PM)
 8. Salman (AK)
 9. Septian (PM)
-'.date("j F, Y, g:i a").'
-'.date("B u, e, T, Z, c")
+'
 									)
 							)
 						);
@@ -70,7 +69,7 @@ Anggota Baru :
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => ''.$pesan_datang.', Orangnya pendiem, saking diemnya sampe tidur mulu dikelas, banyak ciwainya, suaranya kaya kambing pengen ka***n, Gans
+										'text' => ''.$command.', Orangnya pendiem, saking diemnya sampe tidur mulu dikelas, banyak ciwainya, suaranya kaya kambing pengen ka***n, Gans
 '
 									)
 							)
@@ -87,7 +86,41 @@ Anggota Baru :
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => ''.$command.', Belum ada deskripsi
+										'text' => ''.$command.', Orangnya biasa, ya biasa aja, udah gitu aja ya.. kepo? Tanya aja seorangnya. Sekian...
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='dewa')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => ''.$command.', orangnya baik, osis, suka WOTA, bendahara kami, masih lurus otaknya, kadang juga fk jelas kwkwkw...
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='fadhil')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => ''.$command.', orangnya baik, gans, banyak yang bilang orangnya gk punya gairah hidup, suka ngelawak, tapi jatohnya krik, kadang suka gadanta, kyk orang kesambet. Sekian...
 '
 									)
 							)
@@ -112,6 +145,56 @@ Anggota Baru :
 				
 	}
 	else
+	if($command=='nauval')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => ''.$command.' Orangnya tengil, pen bat digeplak sendal, banyak cewenya, pengen hijrah tapi gk bisa-bisa, katanya mau menjaga tapi diembat juga (si sanu), muna-muna kek kucing, baik, asik , orangnya seru. Sekian...'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='rangga')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => ''.$command.' Orangnya baik, masalah cewe ia off, ini panutan kami, mantap dah, seneng WOTA, semoga istiqomah dijalan-Nya, darah tinggian. Sekian...
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='salman')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => ''.$command.', Kapten kami, kece, kepean, gans, agen FBI, sama team American World Police widiiww, suka bikin cerita anggota wat-watpad club. Sekian...
+'
+									)
+							)
+						);
+				
+	}
+	else
 	if($command=='septian')
 	{
 		
@@ -121,7 +204,7 @@ Anggota Baru :
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => ''.$pesan_datang.', Belum ada deskripsi
+										'text' => ''.$command.', Orangnya gans, terkece, hacker internasional, doi perjuangan si I***, maunya dikejar bukan mengejar, solid iya, darah tinggian, muntungan, Sekian...
 '
 									)
 							)
