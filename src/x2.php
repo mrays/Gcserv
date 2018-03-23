@@ -52,23 +52,6 @@ Misi :
 				
 	}
 	else
-	if($command=='ikhwal')
-	{
-		
-		
-		$balas = array(
-							'replyToken' => $replyToken,														
-							'messages' => array(
-								array(
-										'type' => 'text',					
-										'text' => 'Ikhwal, anaknya baek, suka sama si s***, tapi sian bangat gk direspon sama dia, kalem tapi petakilan, kadang sikapnya gadanta, seneng bangat ama buku kambing conge
-'
-									)
-							)
-						);
-				
-	}
-	else
 	if($command=='.kpg')
 	{
 		
