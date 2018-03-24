@@ -108,6 +108,100 @@ maka bisa jadi akan dikeluarkan dengan proses tertentu.
 				
 	}
 	else
+	if($command=='#tentang')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+Perkenalan
+
+    BOT INI DIBUAT DIBAWAH ATURAN C-Media Group
+  BOT INI DIPAKAI UNTUK GREENCOREGROUP  LIST, JADWAL KEGIATAN DLL.
+ BOT INI SELALU DI REFRESH SELAMA 0.00017 scm/s
+
+Bot ini bermukim di GITHUB dengan ftp/ssh dalam mengelolanya. 
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='+server')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+>>>>>>> WARNING !!! <<<<<<<
+
+ >>> SERVER POETRANUSA.GA & C-MEDIA GROUP DEVELOPER <<<
+> SYSTEM DEBIAN O.S
+> COUNTRY LONDON
+> RAM ¤
+> IN GIT YES
+> SECURITY SSL YES (Integrated by Symantec)
+> ASP 50/sc +(678)
+> SSH YES 
+
+
+ >>>>>> WARNING !!! <<<<<<<
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='.tentanggc')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+none
+'
+									)
+							)
+						);
+				
+	}
+	else
+	if($command=='.agenda')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+>>> AGENDA GREENCORE GROUP <<<
+1. 
+2.
+3.
+...
+'
+									)
+							)
+						);
+				
+	}
+	else
 	if($command=='.KC')
 	{
 		
