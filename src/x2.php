@@ -214,9 +214,8 @@ none
 										'text' => '
  >>>>>> UTAMA <<<<<<< 
 .tentanggc Tentang GC
-.gc
- Anggota GC
-.gc/db Database GC
+gc Anggota GC
+gc/db Database GC
 .agenda Agenda GC
 .kpg Peraturan GC
 .visimisi Visi & Misi GC
