@@ -80,7 +80,12 @@ function cuaca($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/menu') {
-    $text = "Halo Kak ^_^\nAku Bot Prediksi Cuaca, Kamu bisa mengetahui prediksi cuaca di daerah kamu sesuai dengan sumber BMKG";
+    $text = "ASSALAMU'ALAIKUM WARAHMATULLAHI WABARAKHATUH
+
+Perkenalkan Nama aku GREENCORE BOT aku di lahirkan dari server github, aku adalah robot reply kalo kamu ngomong nanti aku jawab sesuai kata kunci yang aku buat ya.. untuk melihat kata kunci ketik .KC sekian perkenalanku.. Terimakasih :-)
+
+#cmediagroup
+#aysbot ";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
