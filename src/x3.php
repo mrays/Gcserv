@@ -1,7 +1,7 @@
 <?php
 # Command Line
 
-	if($pesan_datang=='ui')
+	if($command=='ui')
 	{
 		
 		
@@ -17,7 +17,7 @@
 				
 	}
 	else
-	if($pesan_datang=='gc/db')
+	if($command=='gc/db')
 	{
 		
 		
