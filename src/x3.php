@@ -49,7 +49,7 @@ Anggota Baru :
 				
 	}
 	else
-	if($pesan_datang=='servtime')
+	if($command=='servtime')
 	{
 		
 		
