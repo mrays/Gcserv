@@ -108,7 +108,7 @@ maka bisa jadi akan dikeluarkan dengan proses tertentu.
 				
 	}
 	else
-	if($command=='.kc')
+	if($command=='.KC')
 	{
 		
 		
@@ -118,11 +118,23 @@ maka bisa jadi akan dikeluarkan dengan proses tertentu.
 								array(
 										'type' => 'text',					
 										'text' => '
->>>> Daftar kata kunci GREENCOREBOT <<<<
->> .visimisi
->> .kpg
->> .strukturgc
->> .help
+ >>>>>> UTAMA <<<<<<< 
+.tentanggc Tentang GC
+.gc
+ Anggota GC
+.gc/db Database GC
+.agenda Agenda GC
+.kpg Peraturan GC
+.visimisi Visi & Misi GC
+
+  >>>>>> OPTIONS <<<<<<< 
+#tentang
+#jam
+#cmedia
+
+  >>>>>> Nama Asending <<<<<<< 
+Ketik nama yang ada di daftar db GC, contoh ketika kamu mengetik "Alan" maka akan keluar kesan aku ke alan.
+
 '
 									)
 							)
