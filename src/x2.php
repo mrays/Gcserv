@@ -172,7 +172,44 @@ Bot ini bermukim di GITHUB dengan ftp/ssh dalam mengelolanya.
 								array(
 										'type' => 'text',					
 										'text' => '
-none
+WELCOME TO GREEN CORE
+
+Apa itu Green Core...?
+
+Green Core adalah perkumpulan remaja zaman now yang berusaha mencari rahmat dan ridho di jalan-Nya
+
+Trus kegiatan apa aja yang ada di Green core...?
+
+1. Liburan
+Di Green core perkumpulan remaja akan mengisi waktu liburan untuk hal yang positif dan tentunya berguna baik itu menambah wawasan, mengenal tempat destinasi yang berhubungan dengan Islam, dan hal² positif lainnya, tentunya waktu libur mu tidak terbuang sia²
+ 
+2. Aspirasion
+Setiap anggota green core rutin melakukan sedikitnya 1 x seminggu pertemuan untuk bertukar pikiran atau merencanakan sesuatu dimana dalam kegiatan ini, dapat menambah tali silaturahmi antar sesama anggota green core
+
+3. Enterpreneurship
+Setiap bulan jika memungkinkan akan mengadakan kegiatan kewirausahaan yang tentunya akan membangun jiwa kewirausahaan, kepemimpinan dan tanggung jawab bersama.. serta tentunya menjaga kebersamaan antar anggota greencore..
+
+
+Dan masih banyak lagi kegiatan2 positif yang ad di green core...
+
+
+
+
+
+
+Contact Informations 
+ 
+Website : http://greencore.cf
+E-mail    : info@greencore.cf
+
+
+Always support by :
+(Internet only)
+
+# Infinityfree 
+# C-Media Group
+# Viewen
+# MediaWiki
 '
 									)
 							)
