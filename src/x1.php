@@ -187,7 +187,7 @@ Anggota Baru :
 							'messages' => array(
 								array(
 										'type' => 'text',					
-										'text' => ''.$command.', Kapten kami, kece, kepean, gans, agen FBI, sama team American World Police widiiww, suka bikin cerita anggota wat-watpad club. Sekian...
+										'text' => ''.$command.', Kapten kami, kece, kepedean, gans, agen FBI, sama team American World Police, widiiww, suka bikin cerita anggota wat-watpad club. Sekian...
 '
 									)
 							)
