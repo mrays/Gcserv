@@ -217,6 +217,23 @@ Always support by :
 				
 	}
 	else
+	if($command=='#jam')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+Jam Server Saya : '.date('Y-m-d H:i:s')
+									)
+							)
+						);
+				
+	}
+	else
 	if($command=='.agenda')
 	{
 		
@@ -239,6 +256,25 @@ Always support by :
 				
 	}
 	else
+	if($command=='#cmedia')
+	{
+		
+		
+		$balas = array(
+							'replyToken' => $replyToken,														
+							'messages' => array(
+								array(
+										'type' => 'text',					
+										'text' => '
+>>> Content Media GROUP <<<
+C-Media Group adalah sebuah perusahaan daring, perusahaan ini merupakan perusahaan perorangan yang sebelumnya dua nama, yaitu sampul semut dan Pumays dibawah naungan Antspace Media namun, Antspace Media gagal dalam mendirikan sesuatu dan berganti nama menjadi C-Media Group atau Content Media Group yang saat ini berjalan, C-Media Group juga akan berinovasi kedepannya untuk mengembangkan pendidikan berbasis IT yang gratis bagi masyarakat Indonesia. Nusadatapoetra Wiki dan An-Najah Wiki saat ini adalah proyek (code) dan penyimpanan artikel di bawah naungan C-Media Group
+'
+									)
+							)
+						);
+				
+	}
+	else
 	if($command=='.KC')
 	{
 		
@@ -249,18 +285,21 @@ Always support by :
 								array(
 										'type' => 'text',					
 										'text' => '
- >>>>>> UTAMA <<<<<<< 
-.tentanggc Tentang GC
-gc Anggota GC
-gc/db Database GC
-.agenda Agenda GC
-.kpg Peraturan GC
-.visimisi Visi & Misi GC
+ >>>>>> UTAMA <<<<<<<
+> gc         [anggota greencore]
+> gc/db      [anggota baru]
+> .tentanggc [tentang greencore]
+> .agenda    [Agenda greencore]
+> .kpg       [Peraturan greencore]
+> .visimisi  [Visi & Misi greencore]
 
   >>>>>> OPTIONS <<<<<<< 
-#tentang
-#jam
-#cmedia
+  (kata kunci tambahan)
+/shalat <nama daerah> [jadwal shalat]
+/cuaca <nama daerah   [cuaca terkini]
+#tentang  [tentang GCBOT bot]
+#jam      [jam sekarang]
+#cmedia   [tentang C-Media Group]
 
   >>>>>> Nama Asending <<<<<<< 
 Ketik nama yang ada di daftar db GC, contoh ketika kamu mengetik "Alan" maka akan keluar kesan aku ke alan.
